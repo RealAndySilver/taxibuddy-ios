@@ -8,7 +8,12 @@
 
 import UIKit
 
-class LoginViewController: UIViewController {
+class LoginViewController: UIViewController, SegueHandlerType {
+    
+    //Enums 
+    enum SegueIdentifier: String {
+        case ToMainTabBar = "ToMainTabBarSegue"
+    }
     
     //Outlets
     @IBOutlet weak var loginButton: DesignableButton!
@@ -98,6 +103,15 @@ class LoginViewController: UIViewController {
                 
         }
     }
+    
+    //MARK: Navigation 
+    
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        if case .ToMainTabBar = segueIdentifierForSegue(segue) {
+            let mainTabBarVC = segue.destinationViewController as! MainTabBarViewController
+            mainTabBarVC.transitioningDelegate = self
+        }
+    }
 }
 
 //MARK: UITextfieldDelegate
@@ -106,5 +120,13 @@ extension LoginViewController: UITextFieldDelegate {
     func textFieldShouldReturn(textField: UITextField) -> Bool {
         textField.resignFirstResponder()
         return true
+    }
+}
+
+//MARK: UIViewControllerTransitioningDelegate
+
+extension LoginViewController: UIViewControllerTransitioningDelegate {
+    func animationControllerForDismissedController(dismissed: UIViewController) -> UIViewControllerAnimatedTransitioning? {
+        return TabBarDismissAnimationController()
     }
 }

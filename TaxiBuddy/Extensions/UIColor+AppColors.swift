@@ -17,4 +17,8 @@ extension UIColor {
     class func getAppSecondaryColor() -> UIColor {
         return UIColor(red: 71.0/255.0, green: 160.0/255.0, blue: 251.0/255.0, alpha: 1.0)
     }
+    
+    class func getAppThirdColor() -> UIColor {
+        return UIColor(red: 85.0/255.0, green: 195.0/255.0, blue: 253.0/255.0, alpha: 1.0)
+    }
 }

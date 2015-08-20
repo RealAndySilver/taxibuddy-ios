@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		8B0D996C1B83A32300E2546D /* CreateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B0D996B1B83A32300E2546D /* CreateAccountViewController.swift */; };
+		8B22B42D1B84B4370009E898 /* UIImage+AssetIdentifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B22B42C1B84B4370009E898 /* UIImage+AssetIdentifier.swift */; };
+		8B22B4301B84B6700009E898 /* SegueHandlerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B22B42F1B84B6700009E898 /* SegueHandlerProtocol.swift */; };
+		8B22B4321B84C3010009E898 /* MainTaximeterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B22B4311B84C3010009E898 /* MainTaximeterViewController.swift */; };
 		8B23EB801B7E7F86000AFBFC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B23EB7F1B7E7F86000AFBFC /* AppDelegate.swift */; };
 		8B23EB851B7E7F86000AFBFC /* LoginSignup.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B23EB831B7E7F86000AFBFC /* LoginSignup.storyboard */; };
 		8B23EB871B7E7F86000AFBFC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B23EB861B7E7F86000AFBFC /* Assets.xcassets */; };
@@ -18,6 +21,9 @@
 		8B27E4F11B83C9CC008843E3 /* MainScreens.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B27E4EF1B83C9CC008843E3 /* MainScreens.storyboard */; };
 		8B27E4F61B83D2C2008843E3 /* UIColor+AppColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B27E4F51B83D2C2008843E3 /* UIColor+AppColors.swift */; };
 		8B27E4F81B83D80E008843E3 /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B27E4F71B83D80E008843E3 /* MainTabBarViewController.swift */; };
+		8B31EB951B864CF1004CE03A /* TabBarChangeAnimationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B31EB941B864CF1004CE03A /* TabBarChangeAnimationController.swift */; };
+		8B4D95C31B86151200477A05 /* MyProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B4D95C21B86151200477A05 /* MyProfileViewController.swift */; };
+		8B4D95C71B86186600477A05 /* TabBarDismissAnimationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B4D95C61B86186600477A05 /* TabBarDismissAnimationController.swift */; };
 		8BE7E6381B83829600B2AEAC /* AsyncButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BE7E61A1B83829600B2AEAC /* AsyncButton.swift */; };
 		8BE7E6391B83829600B2AEAC /* AsyncImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BE7E61B1B83829600B2AEAC /* AsyncImageView.swift */; };
 		8BE7E63A1B83829600B2AEAC /* AutoTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BE7E61C1B83829600B2AEAC /* AutoTextView.swift */; };
@@ -69,6 +75,9 @@
 
 /* Begin PBXFileReference section */
 		8B0D996B1B83A32300E2546D /* CreateAccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CreateAccountViewController.swift; path = Controllers/CreateAccountViewController.swift; sourceTree = "<group>"; };
+		8B22B42C1B84B4370009E898 /* UIImage+AssetIdentifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIImage+AssetIdentifier.swift"; path = "Extensions/UIImage+AssetIdentifier.swift"; sourceTree = "<group>"; };
+		8B22B42F1B84B6700009E898 /* SegueHandlerProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SegueHandlerProtocol.swift; sourceTree = "<group>"; };
+		8B22B4311B84C3010009E898 /* MainTaximeterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainTaximeterViewController.swift; path = Controllers/MainTaximeterViewController.swift; sourceTree = "<group>"; };
 		8B23EB7C1B7E7F86000AFBFC /* TaxiBuddy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TaxiBuddy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B23EB7F1B7E7F86000AFBFC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8B23EB841B7E7F86000AFBFC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LoginSignup.storyboard; sourceTree = "<group>"; };
@@ -85,6 +94,9 @@
 		8B27E4F01B83C9CC008843E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainScreens.storyboard; sourceTree = "<group>"; };
 		8B27E4F51B83D2C2008843E3 /* UIColor+AppColors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIColor+AppColors.swift"; path = "Extensions/UIColor+AppColors.swift"; sourceTree = "<group>"; };
 		8B27E4F71B83D80E008843E3 /* MainTabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainTabBarViewController.swift; path = Controllers/MainTabBarViewController.swift; sourceTree = "<group>"; };
+		8B31EB941B864CF1004CE03A /* TabBarChangeAnimationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TabBarChangeAnimationController.swift; path = AnimationControllers/TabBarChangeAnimationController.swift; sourceTree = "<group>"; };
+		8B4D95C21B86151200477A05 /* MyProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MyProfileViewController.swift; path = Controllers/MyProfileViewController.swift; sourceTree = "<group>"; };
+		8B4D95C61B86186600477A05 /* TabBarDismissAnimationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TabBarDismissAnimationController.swift; path = AnimationControllers/TabBarDismissAnimationController.swift; sourceTree = "<group>"; };
 		8BE7E61A1B83829600B2AEAC /* AsyncButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AsyncButton.swift; sourceTree = "<group>"; };
 		8BE7E61B1B83829600B2AEAC /* AsyncImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AsyncImageView.swift; sourceTree = "<group>"; };
 		8BE7E61C1B83829600B2AEAC /* AutoTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AutoTextView.swift; sourceTree = "<group>"; };
@@ -143,6 +155,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8B22B42E1B84B62D0009E898 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				8B22B42F1B84B6700009E898 /* SegueHandlerProtocol.swift */,
+			);
+			name = Protocols;
+			sourceTree = "<group>";
+		};
 		8B23EB731B7E7F86000AFBFC = {
 			isa = PBXGroup;
 			children = (
@@ -166,12 +186,11 @@
 		8B23EB7E1B7E7F86000AFBFC /* TaxiBuddy */ = {
 			isa = PBXGroup;
 			children = (
+				8B4D95C51B86181600477A05 /* AnimationControllers */,
+				8B22B42E1B84B62D0009E898 /* Protocols */,
 				8B27E4F41B83D2AA008843E3 /* Extensions */,
 				8B23EBB11B7E92D0000AFBFC /* Libraries */,
-				8B23EBAF1B7E8970000AFBFC /* InitialViewController.swift */,
-				8BE7E6551B83849F00B2AEAC /* LoginViewController.swift */,
-				8B0D996B1B83A32300E2546D /* CreateAccountViewController.swift */,
-				8B27E4F71B83D80E008843E3 /* MainTabBarViewController.swift */,
+				8B4D95C41B8617F600477A05 /* Controllers */,
 				8B23EB831B7E7F86000AFBFC /* LoginSignup.storyboard */,
 				8B27E4EF1B83C9CC008843E3 /* MainScreens.storyboard */,
 				8B23EBAD1B7E8663000AFBFC /* Others */,
@@ -220,8 +239,31 @@
 			isa = PBXGroup;
 			children = (
 				8B27E4F51B83D2C2008843E3 /* UIColor+AppColors.swift */,
+				8B22B42C1B84B4370009E898 /* UIImage+AssetIdentifier.swift */,
 			);
 			name = Extensions;
+			sourceTree = "<group>";
+		};
+		8B4D95C41B8617F600477A05 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				8B23EBAF1B7E8970000AFBFC /* InitialViewController.swift */,
+				8BE7E6551B83849F00B2AEAC /* LoginViewController.swift */,
+				8B0D996B1B83A32300E2546D /* CreateAccountViewController.swift */,
+				8B27E4F71B83D80E008843E3 /* MainTabBarViewController.swift */,
+				8B22B4311B84C3010009E898 /* MainTaximeterViewController.swift */,
+				8B4D95C21B86151200477A05 /* MyProfileViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		8B4D95C51B86181600477A05 /* AnimationControllers */ = {
+			isa = PBXGroup;
+			children = (
+				8B4D95C61B86186600477A05 /* TabBarDismissAnimationController.swift */,
+				8B31EB941B864CF1004CE03A /* TabBarChangeAnimationController.swift */,
+			);
+			name = AnimationControllers;
 			sourceTree = "<group>";
 		};
 		8BE7E6191B83829600B2AEAC /* Spring */ = {
@@ -396,6 +438,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8BE7E64E1B83829600B2AEAC /* SpringLabel.swift in Sources */,
+				8B22B4301B84B6700009E898 /* SegueHandlerProtocol.swift in Sources */,
 				8BE7E6431B83829600B2AEAC /* ImageLoader.swift in Sources */,
 				8BE7E6481B83829600B2AEAC /* Misc.swift in Sources */,
 				8B27E4F81B83D80E008843E3 /* MainTabBarViewController.swift in Sources */,
@@ -403,9 +446,12 @@
 				8BE7E64D1B83829600B2AEAC /* SpringImageView.swift in Sources */,
 				8B23EB801B7E7F86000AFBFC /* AppDelegate.swift in Sources */,
 				8BE7E6491B83829600B2AEAC /* SoundPlayer.swift in Sources */,
+				8B4D95C71B86186600477A05 /* TabBarDismissAnimationController.swift in Sources */,
+				8B22B4321B84C3010009E898 /* MainTaximeterViewController.swift in Sources */,
 				8BE7E6501B83829600B2AEAC /* SpringTextView.swift in Sources */,
 				8B23EBB01B7E8970000AFBFC /* InitialViewController.swift in Sources */,
 				8BE7E6421B83829600B2AEAC /* DesignableView.swift in Sources */,
+				8B31EB951B864CF1004CE03A /* TabBarChangeAnimationController.swift in Sources */,
 				8B0D996C1B83A32300E2546D /* CreateAccountViewController.swift in Sources */,
 				8BE7E64B1B83829600B2AEAC /* SpringAnimation.swift in Sources */,
 				8BE7E64A1B83829600B2AEAC /* Spring.swift in Sources */,
@@ -416,6 +462,8 @@
 				8BE7E6401B83829600B2AEAC /* DesignableTextField.swift in Sources */,
 				8BE7E6381B83829600B2AEAC /* AsyncButton.swift in Sources */,
 				8BE7E6451B83829600B2AEAC /* KeyboardLayoutConstraint.swift in Sources */,
+				8B4D95C31B86151200477A05 /* MyProfileViewController.swift in Sources */,
+				8B22B42D1B84B4370009E898 /* UIImage+AssetIdentifier.swift in Sources */,
 				8BE7E6561B8384A000B2AEAC /* LoginViewController.swift in Sources */,
 				8BE7E64C1B83829600B2AEAC /* SpringButton.swift in Sources */,
 				8BE7E6391B83829600B2AEAC /* AsyncImageView.swift in Sources */,

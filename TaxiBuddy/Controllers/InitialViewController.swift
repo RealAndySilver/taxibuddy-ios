@@ -8,7 +8,13 @@
 
 import UIKit
 
-class InitialViewController: UIViewController {
+class InitialViewController: UIViewController, SegueHandlerType {
+    
+    //Enums 
+    enum SegueIdentifier: String {
+        case ToLogin = "ToLoginSegue"
+        case ToCreateAccount = "ToCreateAccountSegue"
+    }
     
     //Outlets
     @IBOutlet weak var createAccountButton: UIButton!
@@ -63,7 +69,8 @@ class InitialViewController: UIViewController {
     //MARK: Navigation 
     
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        if segue.identifier == "ToCreateAccountSegue" {
+        if case .ToCreateAccount = segueIdentifierForSegue(segue){
+            //To create account segue
             let createAccountVC = segue.destinationViewController as! CreateAccountViewController
             createAccountVC.delegate = self
             
