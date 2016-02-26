@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8B0A33C81B96052F00720311 /* ResultsOfCalculateRouteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B0A33C71B96052F00720311 /* ResultsOfCalculateRouteViewController.swift */; };
 		8B0D996C1B83A32300E2546D /* CreateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B0D996B1B83A32300E2546D /* CreateAccountViewController.swift */; };
 		8B22B42D1B84B4370009E898 /* UIImage+AssetIdentifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B22B42C1B84B4370009E898 /* UIImage+AssetIdentifier.swift */; };
 		8B22B4301B84B6700009E898 /* SegueHandlerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B22B42F1B84B6700009E898 /* SegueHandlerProtocol.swift */; };
@@ -24,6 +25,8 @@
 		8B31EB951B864CF1004CE03A /* TabBarChangeAnimationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B31EB941B864CF1004CE03A /* TabBarChangeAnimationController.swift */; };
 		8B4D95C31B86151200477A05 /* MyProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B4D95C21B86151200477A05 /* MyProfileViewController.swift */; };
 		8B4D95C71B86186600477A05 /* TabBarDismissAnimationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B4D95C61B86186600477A05 /* TabBarDismissAnimationController.swift */; };
+		8BC929261B8F72870084CB3E /* MyAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BC929251B8F72870084CB3E /* MyAnnotation.swift */; };
+		8BD37AE31B8767B700A2CED1 /* CalculateRouteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BD37AE21B8767B600A2CED1 /* CalculateRouteViewController.swift */; };
 		8BE7E6381B83829600B2AEAC /* AsyncButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BE7E61A1B83829600B2AEAC /* AsyncButton.swift */; };
 		8BE7E6391B83829600B2AEAC /* AsyncImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BE7E61B1B83829600B2AEAC /* AsyncImageView.swift */; };
 		8BE7E63A1B83829600B2AEAC /* AutoTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BE7E61C1B83829600B2AEAC /* AutoTextView.swift */; };
@@ -54,6 +57,8 @@
 		8BE7E6531B83829600B2AEAC /* TransitionZoom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BE7E6361B83829600B2AEAC /* TransitionZoom.swift */; };
 		8BE7E6541B83829600B2AEAC /* UnwindSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BE7E6371B83829600B2AEAC /* UnwindSegue.swift */; };
 		8BE7E6561B8384A000B2AEAC /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BE7E6551B83849F00B2AEAC /* LoginViewController.swift */; };
+		8BEC23CA1B8B63A90014C83A /* ConsultarPlacaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BEC23C91B8B63A90014C83A /* ConsultarPlacaViewController.swift */; };
+		8BFB23831B878854007149B5 /* ManualTaximeterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BFB23821B878854007149B5 /* ManualTaximeterViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -74,6 +79,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8B0A33C71B96052F00720311 /* ResultsOfCalculateRouteViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ResultsOfCalculateRouteViewController.swift; path = Controllers/ResultsOfCalculateRouteViewController.swift; sourceTree = "<group>"; };
 		8B0D996B1B83A32300E2546D /* CreateAccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CreateAccountViewController.swift; path = Controllers/CreateAccountViewController.swift; sourceTree = "<group>"; };
 		8B22B42C1B84B4370009E898 /* UIImage+AssetIdentifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIImage+AssetIdentifier.swift"; path = "Extensions/UIImage+AssetIdentifier.swift"; sourceTree = "<group>"; };
 		8B22B42F1B84B6700009E898 /* SegueHandlerProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SegueHandlerProtocol.swift; sourceTree = "<group>"; };
@@ -97,6 +103,8 @@
 		8B31EB941B864CF1004CE03A /* TabBarChangeAnimationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TabBarChangeAnimationController.swift; path = AnimationControllers/TabBarChangeAnimationController.swift; sourceTree = "<group>"; };
 		8B4D95C21B86151200477A05 /* MyProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MyProfileViewController.swift; path = Controllers/MyProfileViewController.swift; sourceTree = "<group>"; };
 		8B4D95C61B86186600477A05 /* TabBarDismissAnimationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TabBarDismissAnimationController.swift; path = AnimationControllers/TabBarDismissAnimationController.swift; sourceTree = "<group>"; };
+		8BC929251B8F72870084CB3E /* MyAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MyAnnotation.swift; path = CustomViews/MyAnnotation.swift; sourceTree = "<group>"; };
+		8BD37AE21B8767B600A2CED1 /* CalculateRouteViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CalculateRouteViewController.swift; path = Controllers/CalculateRouteViewController.swift; sourceTree = "<group>"; };
 		8BE7E61A1B83829600B2AEAC /* AsyncButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AsyncButton.swift; sourceTree = "<group>"; };
 		8BE7E61B1B83829600B2AEAC /* AsyncImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AsyncImageView.swift; sourceTree = "<group>"; };
 		8BE7E61C1B83829600B2AEAC /* AutoTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AutoTextView.swift; sourceTree = "<group>"; };
@@ -128,6 +136,8 @@
 		8BE7E6361B83829600B2AEAC /* TransitionZoom.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransitionZoom.swift; sourceTree = "<group>"; };
 		8BE7E6371B83829600B2AEAC /* UnwindSegue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnwindSegue.swift; sourceTree = "<group>"; };
 		8BE7E6551B83849F00B2AEAC /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoginViewController.swift; path = Controllers/LoginViewController.swift; sourceTree = "<group>"; };
+		8BEC23C91B8B63A90014C83A /* ConsultarPlacaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ConsultarPlacaViewController.swift; path = Controllers/ConsultarPlacaViewController.swift; sourceTree = "<group>"; };
+		8BFB23821B878854007149B5 /* ManualTaximeterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ManualTaximeterViewController.swift; path = Controllers/ManualTaximeterViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -186,6 +196,7 @@
 		8B23EB7E1B7E7F86000AFBFC /* TaxiBuddy */ = {
 			isa = PBXGroup;
 			children = (
+				8BC929241B8F72680084CB3E /* CustomViews */,
 				8B4D95C51B86181600477A05 /* AnimationControllers */,
 				8B22B42E1B84B62D0009E898 /* Protocols */,
 				8B27E4F41B83D2AA008843E3 /* Extensions */,
@@ -253,6 +264,10 @@
 				8B27E4F71B83D80E008843E3 /* MainTabBarViewController.swift */,
 				8B22B4311B84C3010009E898 /* MainTaximeterViewController.swift */,
 				8B4D95C21B86151200477A05 /* MyProfileViewController.swift */,
+				8BD37AE21B8767B600A2CED1 /* CalculateRouteViewController.swift */,
+				8B0A33C71B96052F00720311 /* ResultsOfCalculateRouteViewController.swift */,
+				8BFB23821B878854007149B5 /* ManualTaximeterViewController.swift */,
+				8BEC23C91B8B63A90014C83A /* ConsultarPlacaViewController.swift */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -264,6 +279,14 @@
 				8B31EB941B864CF1004CE03A /* TabBarChangeAnimationController.swift */,
 			);
 			name = AnimationControllers;
+			sourceTree = "<group>";
+		};
+		8BC929241B8F72680084CB3E /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				8BC929251B8F72870084CB3E /* MyAnnotation.swift */,
+			);
+			name = CustomViews;
 			sourceTree = "<group>";
 		};
 		8BE7E6191B83829600B2AEAC /* Spring */ = {
@@ -457,6 +480,8 @@
 				8BE7E64A1B83829600B2AEAC /* Spring.swift in Sources */,
 				8B27E4F61B83D2C2008843E3 /* UIColor+AppColors.swift in Sources */,
 				8BE7E6461B83829600B2AEAC /* LoadingView.swift in Sources */,
+				8BEC23CA1B8B63A90014C83A /* ConsultarPlacaViewController.swift in Sources */,
+				8B0A33C81B96052F00720311 /* ResultsOfCalculateRouteViewController.swift in Sources */,
 				8BE7E64F1B83829600B2AEAC /* SpringTextField.swift in Sources */,
 				8BE7E63C1B83829600B2AEAC /* DesignableButton.swift in Sources */,
 				8BE7E6401B83829600B2AEAC /* DesignableTextField.swift in Sources */,
@@ -468,12 +493,15 @@
 				8BE7E64C1B83829600B2AEAC /* SpringButton.swift in Sources */,
 				8BE7E6391B83829600B2AEAC /* AsyncImageView.swift in Sources */,
 				8BE7E63F1B83829600B2AEAC /* DesignableTabBarController.swift in Sources */,
+				8BFB23831B878854007149B5 /* ManualTaximeterViewController.swift in Sources */,
 				8BE7E63A1B83829600B2AEAC /* AutoTextView.swift in Sources */,
 				8BE7E6411B83829600B2AEAC /* DesignableTextView.swift in Sources */,
 				8BE7E63E1B83829600B2AEAC /* DesignableLabel.swift in Sources */,
 				8BE7E6541B83829600B2AEAC /* UnwindSegue.swift in Sources */,
 				8BE7E6521B83829600B2AEAC /* TransitionManager.swift in Sources */,
 				8BE7E63B1B83829600B2AEAC /* BlurView.swift in Sources */,
+				8BC929261B8F72870084CB3E /* MyAnnotation.swift in Sources */,
+				8BD37AE31B8767B700A2CED1 /* CalculateRouteViewController.swift in Sources */,
 				8BE7E6511B83829600B2AEAC /* SpringView.swift in Sources */,
 				8BE7E6531B83829600B2AEAC /* TransitionZoom.swift in Sources */,
 			);

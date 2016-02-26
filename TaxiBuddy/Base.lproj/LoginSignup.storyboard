@@ -56,7 +56,7 @@
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zat-GZ-HAY" customClass="DesignableButton" customModule="TaxiBuddy" customModuleProvider="target">
                                         <rect key="frame" x="20" y="454" width="560" height="40"/>
-                                        <color key="backgroundColor" red="0.27888733148574829" green="0.62888079881668091" blue="0.98607087135314941" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="backgroundColor" red="0.99215686321258545" green="0.76862746477127075" blue="0.3333333432674408" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="40" id="BeX-uu-9Uv"/>
                                         </constraints>
@@ -496,7 +496,7 @@
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0eA-ma-tNA" customClass="DesignableButton" customModule="TaxiBuddy" customModuleProvider="target">
                                 <rect key="frame" x="20" y="453" width="560" height="40"/>
-                                <color key="backgroundColor" red="0.2788873315" green="0.62888079880000003" blue="0.98607087140000005" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" red="0.99215686321258545" green="0.76862746477127075" blue="0.3333333432674408" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="40" id="Whn-Rc-hSZ"/>
                                     <constraint firstAttribute="height" constant="40" id="rTu-8w-7dR"/>
